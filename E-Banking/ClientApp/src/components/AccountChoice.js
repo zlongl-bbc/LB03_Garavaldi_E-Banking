@@ -8,12 +8,14 @@ export class Home extends Component {
     return (
         <div class="container">
             <div class="main">
-                <h2>Transaktion</h2>
+                <h2>Login</h2>
                 <form id="form_id" method="post" name="myform">
-                    <label>User Name :</label>
-                    <input type="text" name="username" id="username" />
-                    <label>Password :</label>
-                    <input type="password" name="password" id="password" />
+                    <label>Betrag :</label>
+                    <input type="text" name="betrag" id="betrag" />
+                    <label>Währung :</label>
+                    <input type="password" name="wahrung" id="wahrung" />
+                    <label>Zu :</label>
+                    <input type="text" name="zu" id="zu" />
                     <input type="button" value="Login" id="submit" onclick="validate()" />
                 </form>       
             </div>
