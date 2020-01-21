@@ -21,7 +21,7 @@ export class Transaction extends Component {
                     <br />
                     <label>Zu :</label>
                     <input type="text" name="zu" id="zu" />
-                    <input type="button" value="Login" id="submit" onclick="validate()" />
+                    <input type="ok" value="ok" id="ok" onclick="validate()" />
                 </form>       
             </div>
         </div>
