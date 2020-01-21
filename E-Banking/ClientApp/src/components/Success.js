@@ -8,8 +8,7 @@ export class Success extends Component {
     return (
         <div class="container">
             <div class="main">
-                <h2>Login</h2>
-                <label>Ueberweisung erfolgreich</label>    
+                <h2>Ueberweisung erfolgreich</h2>   
             </div>
         </div>
     );
